@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #282828;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+    background-size: cover;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 25px;
+}
+
+.caption {
+    margin: 0 25px;
+}
+
+ul {
+    padding: 25px;
+    display: flex;
+    list-style: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+
+/*
+Challenge:
+1. Get this layout looking like the 
+   screenshots on the slide.
+*/  
