@@ -21,6 +21,10 @@ header {
     width: 25px;
 }
 
+.align-right {
+    margin-left: auto;
+}
+
 .caption {
     margin: 0 25px;
 }
@@ -37,6 +41,18 @@ h1 {
     margin: 30px 25px;
 }
 
+.img-banner {
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item {
+    position: relative;
+}
 
 /*
 Challenge:
