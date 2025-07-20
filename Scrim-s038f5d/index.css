@@ -2,19 +2,30 @@ body {
     margin: 0;
     padding: 0;
     color: #282828;
-    background-color: whitesmoke;
     font-family: "Montserrat", sans-serif;
 }
 
 header {
     background-color: #282828;
     color: whitesmoke;
-    background-size: cover;
 }
 
 .logo {
     font-size: 18px;
     font-weight: 700;
+}
+
+ul {
+    padding: 25px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
 }
 
 .icon {
@@ -25,23 +36,27 @@ header {
     margin-left: auto;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.item {
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
 .caption {
     margin: 0 25px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-}
 
-ul {
-    padding: 25px;
-    display: flex;
-    list-style: none;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: 400;
-    margin: 30px 25px;
 }
 
 .img-banner {
@@ -53,15 +68,6 @@ h1 {
     left: 0;
 }
 
-.item-img {
-    width: 100%;
-    display: block;
-}
-
-.item {
-    position: relative;
-}
-
 button {
     border: none;
     background-color: #cd6858;
@@ -69,4 +75,5 @@ button {
     padding: 10px 15px;
     font-weight: 700;
     cursor: pointer;
+    align-self: center;
 }
